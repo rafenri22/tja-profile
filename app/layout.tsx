@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   description:
     "Solusi terpercaya untuk perjalanan wisata Anda dengan armada bus premium dan pelayanan terbaik. Melayani wisata keluarga, corporate trip, dan antar jemput.",
   keywords: "bus pariwisata, sewa bus, wisata keluarga, corporate trip, transportasi jakarta, bus premium",
+  icons: {
+    icon: [{ url: "/favicon.ico" }, { url: "/icon.png", type: "image/png" }],
+    apple: "/apple-icon.png",
+    shortcut: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
@@ -27,6 +32,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   )
