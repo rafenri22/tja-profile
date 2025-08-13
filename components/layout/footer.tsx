@@ -1,6 +1,7 @@
 "use client"
 
 import { Facebook, Instagram, MessageCircle } from "lucide-react"
+import SponsoredLink from "@/components/ads/sponsored-link"
 
 export default function Footer() {
   const socialLinks = [
@@ -12,6 +13,11 @@ export default function Footer() {
   return (
     <footer className="bg-blue-900 dark:bg-black text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Sponsored Link */}
+        <div className="mb-6">
+          <SponsoredLink text="Rekomendasi Partner" className="mb-4" />
+        </div>
+
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Company Info */}
           <div className="flex items-center space-x-3">

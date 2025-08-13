@@ -1,4 +1,5 @@
 import { Shield, Users, Award, Clock } from "lucide-react"
+import BannerAd from "@/components/ads/banner-ad"
 
 export default function AboutSection() {
   const features = [
@@ -53,6 +54,9 @@ export default function AboutSection() {
                 layanan transportasi bus pariwisata di Indonesia.
               </p>
             </div>
+
+            {/* Banner Ad Integration */}
+            <BannerAd className="my-6" />
 
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-xl border border-gray-100 dark:border-gray-700 border-l-4 border-l-blue-600">
               <div className="space-y-6">

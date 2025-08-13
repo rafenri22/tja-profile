@@ -1,4 +1,5 @@
 import { Users, Building2, MapPin, ArrowRight } from "lucide-react"
+import BannerAd from "@/components/ads/banner-ad"
 
 export default function ServicesSection() {
   const services = [
@@ -83,6 +84,11 @@ export default function ServicesSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Banner Ad after services */}
+        <div className="mt-16">
+          <BannerAd className="my-8" />
         </div>
       </div>
     </section>

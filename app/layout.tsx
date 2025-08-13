@@ -36,8 +36,14 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
+        {/* Popunder Ad */}
+        <script type='text/javascript' src='//pl27406930.profitableratecpm.com/b9/08/f2/b908f25daa11a298783d91c1d75f2d27.js'></script>
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {children}
+        {/* Social Bar Ad */}
+        <script type='text/javascript' src='//pl27406938.profitableratecpm.com/8d/2a/1e/8d2a1ecf9340f3448e507a203fd5d4d9.js'></script>
+      </body>
     </html>
   )
 }
