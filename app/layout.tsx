@@ -33,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="scroll-smooth">
       <head>
+        <script src="https://fpyf8.com/88/tag.min.js" data-zone="163277" async data-cfasync="false"></script>
         <meta name="monetag" content="35af15ae37d6883c9c9090b951381dd7" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.png" type="image/png" />
